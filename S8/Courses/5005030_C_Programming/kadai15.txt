@@ -1,0 +1,6 @@
+127	Noah	Section_Chief	21	400000
+204	Olivia	Section_Chief	15	350000
+255	Liam	Supervisor 12	300000
+272	Emma	Staff	10	270000
+300	Oliver	Staff	5	240000
+312	Nick	Staff	1	200000

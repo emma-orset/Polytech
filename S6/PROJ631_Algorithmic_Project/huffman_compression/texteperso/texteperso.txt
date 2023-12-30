@@ -1,0 +1,2 @@
+Je crée ce texte pour   mettre les caractères que je souhaite afin de voir si ça marche. 
+Des chiffres et autres caractères : 2, "34", (28), |, [], °, @, =, £, *, µ.

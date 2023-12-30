@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "156563058724",
+    "project_id": "chibichanmylistingapp",
+    "storage_bucket": "chibichanmylistingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156563058724:android:914ab189296304fde368b1",
+        "android_client_info": {
+          "package_name": "com.chibichan.mylistingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156563058724-scmdchkef9lotqgoq0nopar4o4g94e7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chibichan.mylistingapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "156563058724-c4u5ck8himrgmd2ls1a9b41bc8ljhili.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfXG1uit0zTQXnshGzl3TdqnKOYjOfH3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156563058724-c4u5ck8himrgmd2ls1a9b41bc8ljhili.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "156563058724-krccu7jan24emv4fqi5tvqiqqohsmn1c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chibichan.mylistingapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c5a94a94e097c4438b326787f036ae68 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c5a94a94e097c4438b326787f036ae68" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c5a94a94e097c4438b326787f036ae68 = L.map(
+                "map_c5a94a94e097c4438b326787f036ae68",
+                {
+                    center: [45.9, 6.09],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_002dadb6e38fb5147d83464659780561 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+            var circle_8de2a41e4b440d34f65e4df9e9872231 = L.circle(
+                [44.825873, -0.556697],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_81fe59a840e206876dd0b65b406197a4 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_33af477ca6816620c38777dbe79217df = $(`<div id="html_33af477ca6816620c38777dbe79217df" style="width: 100.0%; height: 100.0%;"><center><b>BORDEAUX ST JEAN</b><br/><br/>Trains en retard au départ : <b>36%</b><br/>Moyenne des retards au départ : <b>11 min</b><br/>Trains en retard à l'arrivée : <b>10%</b><br/>Moyenne des retards à l'arrivée : <b>34 min</b></center><br/></div>`)[0];
+                popup_81fe59a840e206876dd0b65b406197a4.setContent(html_33af477ca6816620c38777dbe79217df);
+            
+        
+
+        circle_8de2a41e4b440d34f65e4df9e9872231.bindPopup(popup_81fe59a840e206876dd0b65b406197a4)
+        ;
+
+        
+    
+    
+            var circle_6fc8670ce24b66c6e8c6cfba71aa5f40 = L.circle(
+                [46.15269, -1.145305],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_58cea850729ad393cb3a5d5389be68bb = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_6e0f59a96fb880c8812c3c85d03d7a99 = $(`<div id="html_6e0f59a96fb880c8812c3c85d03d7a99" style="width: 100.0%; height: 100.0%;"><center><b>LA ROCHELLE VILLE</b><br/><br/>Trains en retard au départ : <b>18%</b><br/>Moyenne des retards au départ : <b>8 min</b><br/>Trains en retard à l'arrivée : <b>8%</b><br/>Moyenne des retards à l'arrivée : <b>34 min</b></center><br/></div>`)[0];
+                popup_58cea850729ad393cb3a5d5389be68bb.setContent(html_6e0f59a96fb880c8812c3c85d03d7a99);
+            
+        
+
+        circle_6fc8670ce24b66c6e8c6cfba71aa5f40.bindPopup(popup_58cea850729ad393cb3a5d5389be68bb)
+        ;
+
+        
+    
+    
+            var circle_16fb2e98ea9f8bc08f9f6e2dbd394336 = L.circle(
+                [48.841172, 2.320514],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_94e9cf36bd1dcd8b20e2d37e719ed6c5 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_014db4489716955401c0e9224523ca70 = $(`<div id="html_014db4489716955401c0e9224523ca70" style="width: 100.0%; height: 100.0%;"><center><b>PARIS MONTPARNASSE</b><br/><br/>Trains en retard au départ : <b>27%</b><br/>Moyenne des retards au départ : <b>10 min</b><br/>Trains en retard à l'arrivée : <b>15%</b><br/>Moyenne des retards à l'arrivée : <b>29 min</b></center><br/></div>`)[0];
+                popup_94e9cf36bd1dcd8b20e2d37e719ed6c5.setContent(html_014db4489716955401c0e9224523ca70);
+            
+        
+
+        circle_16fb2e98ea9f8bc08f9f6e2dbd394336.bindPopup(popup_94e9cf36bd1dcd8b20e2d37e719ed6c5)
+        ;
+
+        
+    
+    
+            var circle_236299c1944db233f915653f7c069560 = L.circle(
+                [47.994455, -4.092103],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_e654f410f13de9f54f691c9fbcab0047 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_2255f97b143401bc300b443bd542df35 = $(`<div id="html_2255f97b143401bc300b443bd542df35" style="width: 100.0%; height: 100.0%;"><center><b>QUIMPER</b><br/><br/>Trains en retard au départ : <b>20%</b><br/>Moyenne des retards au départ : <b>20 min</b><br/>Trains en retard à l'arrivée : <b>9%</b><br/>Moyenne des retards à l'arrivée : <b>42 min</b></center><br/></div>`)[0];
+                popup_e654f410f13de9f54f691c9fbcab0047.setContent(html_2255f97b143401bc300b443bd542df35);
+            
+        
+
+        circle_236299c1944db233f915653f7c069560.bindPopup(popup_e654f410f13de9f54f691c9fbcab0047)
+        ;
+
+        
+    
+    
+            var circle_2675745ae4a217525b1f1ab1f4509fea = L.circle(
+                [46.3154922, 3.3941783],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_1599cf81fbd937e6ebac4e2b5aecd267 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_530531a8fa9a48f562cbb45f2428edeb = $(`<div id="html_530531a8fa9a48f562cbb45f2428edeb" style="width: 100.0%; height: 100.0%;"><center><b>RENNES</b><br/><br/>Trains en retard au départ : <b>42%</b><br/>Moyenne des retards au départ : <b>11 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>35 min</b></center><br/></div>`)[0];
+                popup_1599cf81fbd937e6ebac4e2b5aecd267.setContent(html_530531a8fa9a48f562cbb45f2428edeb);
+            
+        
+
+        circle_2675745ae4a217525b1f1ab1f4509fea.bindPopup(popup_1599cf81fbd937e6ebac4e2b5aecd267)
+        ;
+
+        
+    
+    
+            var circle_76045a6e8dd45d1ab5b101a6dd24bbc2 = L.circle(
+                [47.386099, 0.72355],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_8cfea4e43f5373eb0c04c5dc05b086db = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_b8e52dc0a06a4f8e1b4bcf90a1962467 = $(`<div id="html_b8e52dc0a06a4f8e1b4bcf90a1962467" style="width: 100.0%; height: 100.0%;"><center><b>ST PIERRE DES CORPS</b><br/><br/>Trains en retard au départ : <b>47%</b><br/>Moyenne des retards au départ : <b>6 min</b><br/>Trains en retard à l'arrivée : <b>12%</b><br/>Moyenne des retards à l'arrivée : <b>20 min</b></center><br/></div>`)[0];
+                popup_8cfea4e43f5373eb0c04c5dc05b086db.setContent(html_b8e52dc0a06a4f8e1b4bcf90a1962467);
+            
+        
+
+        circle_76045a6e8dd45d1ab5b101a6dd24bbc2.bindPopup(popup_8cfea4e43f5373eb0c04c5dc05b086db)
+        ;
+
+        
+    
+    
+            var circle_ffb28f38e01fb2c93290304ee669e8ed = L.circle(
+                [47.3541741, 0.6675586],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_662d41b5dc8a9f1edf885fa1a2814f88 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_2520cc988d508d49d80d969dbcf7e48d = $(`<div id="html_2520cc988d508d49d80d969dbcf7e48d" style="width: 100.0%; height: 100.0%;"><center><b>TOURS</b><br/><br/>Trains en retard au départ : <b>18%</b><br/>Moyenne des retards au départ : <b>6 min</b><br/>Trains en retard à l'arrivée : <b>14%</b><br/>Moyenne des retards à l'arrivée : <b>19 min</b></center><br/></div>`)[0];
+                popup_662d41b5dc8a9f1edf885fa1a2814f88.setContent(html_2520cc988d508d49d80d969dbcf7e48d);
+            
+        
+
+        circle_ffb28f38e01fb2c93290304ee669e8ed.bindPopup(popup_662d41b5dc8a9f1edf885fa1a2814f88)
+        ;
+
+        
+    
+    
+            var circle_e5078ae9ec6a6f8cc8e9c9e48afb0e20 = L.circle(
+                [47.216148, -1.542356],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_191b9807a4d6b71fc491cba0bde6fbf8 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_c3e6fa3c2567e78953238c80606bcfcb = $(`<div id="html_c3e6fa3c2567e78953238c80606bcfcb" style="width: 100.0%; height: 100.0%;"><center><b>NANTES</b><br/><br/>Trains en retard au départ : <b>34%</b><br/>Moyenne des retards au départ : <b>12 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>38 min</b></center><br/></div>`)[0];
+                popup_191b9807a4d6b71fc491cba0bde6fbf8.setContent(html_c3e6fa3c2567e78953238c80606bcfcb);
+            
+        
+
+        circle_e5078ae9ec6a6f8cc8e9c9e48afb0e20.bindPopup(popup_191b9807a4d6b71fc491cba0bde6fbf8)
+        ;
+
+        
+    
+    
+            var circle_54286ed2e54b900415a032c3150a4bac = L.circle(
+                [48.876742, 2.358424],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_afc54f0a91d8820208ff55db12311c37 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_a2d07ad2f1a1d9a47fc46d52435fb0db = $(`<div id="html_a2d07ad2f1a1d9a47fc46d52435fb0db" style="width: 100.0%; height: 100.0%;"><center><b>PARIS EST</b><br/><br/>Trains en retard au départ : <b>32%</b><br/>Moyenne des retards au départ : <b>10 min</b><br/>Trains en retard à l'arrivée : <b>14%</b><br/>Moyenne des retards à l'arrivée : <b>28 min</b></center><br/></div>`)[0];
+                popup_afc54f0a91d8820208ff55db12311c37.setContent(html_a2d07ad2f1a1d9a47fc46d52435fb0db);
+            
+        
+
+        circle_54286ed2e54b900415a032c3150a4bac.bindPopup(popup_afc54f0a91d8820208ff55db12311c37)
+        ;
+
+        
+    
+    
+            var circle_e91352efdd5dfade8c264282649fe289 = L.circle(
+                [48.5632897, 7.6950455],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_2e85ae2b553d6bc4a169dea6b6067608 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_911a8b49ad9e2df1a3ce9f569cdee8c1 = $(`<div id="html_911a8b49ad9e2df1a3ce9f569cdee8c1" style="width: 100.0%; height: 100.0%;"><center><b>STRASBOURG</b><br/><br/>Trains en retard au départ : <b>51%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>8%</b><br/>Moyenne des retards à l'arrivée : <b>39 min</b></center><br/></div>`)[0];
+                popup_2e85ae2b553d6bc4a169dea6b6067608.setContent(html_911a8b49ad9e2df1a3ce9f569cdee8c1);
+            
+        
+
+        circle_e91352efdd5dfade8c264282649fe289.bindPopup(popup_2e85ae2b553d6bc4a169dea6b6067608)
+        ;
+
+        
+    
+    
+            var circle_e98880d938adfc8d2430f36cd6b0760d = L.circle(
+                [51.03047, 2.368961],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_051c76b257f9274781dc20e04a173595 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_cca0462b2055325f782bfb4e0279068e = $(`<div id="html_cca0462b2055325f782bfb4e0279068e" style="width: 100.0%; height: 100.0%;"><center><b>DUNKERQUE</b><br/><br/>Trains en retard au départ : <b>4%</b><br/>Moyenne des retards au départ : <b>12 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>34 min</b></center><br/></div>`)[0];
+                popup_051c76b257f9274781dc20e04a173595.setContent(html_cca0462b2055325f782bfb4e0279068e);
+            
+        
+
+        circle_e98880d938adfc8d2430f36cd6b0760d.bindPopup(popup_051c76b257f9274781dc20e04a173595)
+        ;
+
+        
+    
+    
+            var circle_fb5b851adc2c0901567eda6e5a077f62 = L.circle(
+                [50.6119054, 3.075837],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_07067d4c51c63fe92584ed7a9c52d174 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_9a6a783e7dfc93289c856d6da90e7602 = $(`<div id="html_9a6a783e7dfc93289c856d6da90e7602" style="width: 100.0%; height: 100.0%;"><center><b>LILLE</b><br/><br/>Trains en retard au départ : <b>36%</b><br/>Moyenne des retards au départ : <b>8 min</b><br/>Trains en retard à l'arrivée : <b>17%</b><br/>Moyenne des retards à l'arrivée : <b>33 min</b></center><br/></div>`)[0];
+                popup_07067d4c51c63fe92584ed7a9c52d174.setContent(html_9a6a783e7dfc93289c856d6da90e7602);
+            
+        
+
+        circle_fb5b851adc2c0901567eda6e5a077f62.bindPopup(popup_07067d4c51c63fe92584ed7a9c52d174)
+        ;
+
+        
+    
+    
+            var circle_412b3950e2fa28b3dc02cee8f931b681 = L.circle(
+                [50.71683, 3.16804],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_1a596833bb618de3f55bd56cf6ea5588 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_1ff0452fb9ed6a4cb17484c6eb9b7de6 = $(`<div id="html_1ff0452fb9ed6a4cb17484c6eb9b7de6" style="width: 100.0%; height: 100.0%;"><center><b>TOURCOING</b><br/><br/>Trains en retard au départ : <b>15%</b><br/>Moyenne des retards au départ : <b>14 min</b><br/>Trains en retard à l'arrivée : <b>15%</b><br/>Moyenne des retards à l'arrivée : <b>40 min</b></center><br/></div>`)[0];
+                popup_1a596833bb618de3f55bd56cf6ea5588.setContent(html_1ff0452fb9ed6a4cb17484c6eb9b7de6);
+            
+        
+
+        circle_412b3950e2fa28b3dc02cee8f931b681.bindPopup(popup_1a596833bb618de3f55bd56cf6ea5588)
+        ;
+
+        
+    
+    
+            var circle_9238acb6236ae3a013438f000283b25e = L.circle(
+                [45.571302, 5.919547],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_10141b33187851718d1063956e6d4205 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_c1122495c3a7617aca4d7781f2cb8623 = $(`<div id="html_c1122495c3a7617aca4d7781f2cb8623" style="width: 100.0%; height: 100.0%;"><center><b>CHAMBERY CHALLES LES EAUX</b><br/><br/>Trains en retard au départ : <b>64%</b><br/>Moyenne des retards au départ : <b>12 min</b><br/>Trains en retard à l'arrivée : <b>15%</b><br/>Moyenne des retards à l'arrivée : <b>35 min</b></center><br/></div>`)[0];
+                popup_10141b33187851718d1063956e6d4205.setContent(html_c1122495c3a7617aca4d7781f2cb8623);
+            
+        
+
+        circle_9238acb6236ae3a013438f000283b25e.bindPopup(popup_10141b33187851718d1063956e6d4205)
+        ;
+
+        
+    
+    
+            var circle_4733c9201a5707f70f9788e3938581e5 = L.circle(
+                [45.760559, 4.859355],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_26883cefe2cd2297cdd41cb13fc84e06 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_ca8e5a069fee64b720cca785c303dab3 = $(`<div id="html_ca8e5a069fee64b720cca785c303dab3" style="width: 100.0%; height: 100.0%;"><center><b>LYON PART DIEU</b><br/><br/>Trains en retard au départ : <b>58%</b><br/>Moyenne des retards au départ : <b>9 min</b><br/>Trains en retard à l'arrivée : <b>13%</b><br/>Moyenne des retards à l'arrivée : <b>35 min</b></center><br/></div>`)[0];
+                popup_26883cefe2cd2297cdd41cb13fc84e06.setContent(html_ca8e5a069fee64b720cca785c303dab3);
+            
+        
+
+        circle_4733c9201a5707f70f9788e3938581e5.bindPopup(popup_26883cefe2cd2297cdd41cb13fc84e06)
+        ;
+
+        
+    
+    
+            var circle_2867d8f43258fb882a3f2c4a22df3900 = L.circle(
+                [43.604738, 3.880674],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_8239906121cd4fe14467c471476d720e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_ca1b173ab87612e92db1c6a969320e9d = $(`<div id="html_ca1b173ab87612e92db1c6a969320e9d" style="width: 100.0%; height: 100.0%;"><center><b>MONTPELLIER</b><br/><br/>Trains en retard au départ : <b>46%</b><br/>Moyenne des retards au départ : <b>11 min</b><br/>Trains en retard à l'arrivée : <b>15%</b><br/>Moyenne des retards à l'arrivée : <b>38 min</b></center><br/></div>`)[0];
+                popup_8239906121cd4fe14467c471476d720e.setContent(html_ca1b173ab87612e92db1c6a969320e9d);
+            
+        
+
+        circle_2867d8f43258fb882a3f2c4a22df3900.bindPopup(popup_8239906121cd4fe14467c471476d720e)
+        ;
+
+        
+    
+    
+            var circle_d40801235e945fb992f1492f50d2edd3 = L.circle(
+                [47.742224, 7.342396],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_29c8137ff3cca98197f50ceac348649b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_d8206aa0964d0c715e602859cfbfcefb = $(`<div id="html_d8206aa0964d0c715e602859cfbfcefb" style="width: 100.0%; height: 100.0%;"><center><b>MULHOUSE VILLE</b><br/><br/>Trains en retard au départ : <b>50%</b><br/>Moyenne des retards au départ : <b>6 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>37 min</b></center><br/></div>`)[0];
+                popup_29c8137ff3cca98197f50ceac348649b.setContent(html_d8206aa0964d0c715e602859cfbfcefb);
+            
+        
+
+        circle_d40801235e945fb992f1492f50d2edd3.bindPopup(popup_29c8137ff3cca98197f50ceac348649b)
+        ;
+
+        
+    
+    
+            var circle_00d78c5fa91d6ed469be69052c16b421 = L.circle(
+                [43.704556, 7.261904],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_42dbc366739559f011f37b4629d953d9 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_ef05790288a4d8937262256f6a61d4ed = $(`<div id="html_ef05790288a4d8937262256f6a61d4ed" style="width: 100.0%; height: 100.0%;"><center><b>NICE VILLE</b><br/><br/>Trains en retard au départ : <b>31%</b><br/>Moyenne des retards au départ : <b>9 min</b><br/>Trains en retard à l'arrivée : <b>13%</b><br/>Moyenne des retards à l'arrivée : <b>48 min</b></center><br/></div>`)[0];
+                popup_42dbc366739559f011f37b4629d953d9.setContent(html_ef05790288a4d8937262256f6a61d4ed);
+            
+        
+
+        circle_00d78c5fa91d6ed469be69052c16b421.bindPopup(popup_42dbc366739559f011f37b4629d953d9)
+        ;
+
+        
+    
+    
+            var circle_ac0082b823a6bd9918cefcfb01069df6 = L.circle(
+                [48.844888, 2.37352],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_1cd9e46b557c5f3e80cd751a20fe0043 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_e150c8c1b100599641c3022796a9501a = $(`<div id="html_e150c8c1b100599641c3022796a9501a" style="width: 100.0%; height: 100.0%;"><center><b>PARIS LYON</b><br/><br/>Trains en retard au départ : <b>19%</b><br/>Moyenne des retards au départ : <b>14 min</b><br/>Trains en retard à l'arrivée : <b>14%</b><br/>Moyenne des retards à l'arrivée : <b>37 min</b></center><br/></div>`)[0];
+                popup_1cd9e46b557c5f3e80cd751a20fe0043.setContent(html_e150c8c1b100599641c3022796a9501a);
+            
+        
+
+        circle_ac0082b823a6bd9918cefcfb01069df6.bindPopup(popup_1cd9e46b557c5f3e80cd751a20fe0043)
+        ;
+
+        
+    
+    
+            var circle_b35cf12636d7a413b5b393fa1a8af4ae = L.circle(
+                [48.38811, -4.478903],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_5361dae259816ec71c5525e54cdeb8c0 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_cbee90d69ec6a2ea55632417effa3ef4 = $(`<div id="html_cbee90d69ec6a2ea55632417effa3ef4" style="width: 100.0%; height: 100.0%;"><center><b>BREST</b><br/><br/>Trains en retard au départ : <b>19%</b><br/>Moyenne des retards au départ : <b>16 min</b><br/>Trains en retard à l'arrivée : <b>8%</b><br/>Moyenne des retards à l'arrivée : <b>44 min</b></center><br/></div>`)[0];
+                popup_5361dae259816ec71c5525e54cdeb8c0.setContent(html_cbee90d69ec6a2ea55632417effa3ef4);
+            
+        
+
+        circle_b35cf12636d7a413b5b393fa1a8af4ae.bindPopup(popup_5361dae259816ec71c5525e54cdeb8c0)
+        ;
+
+        
+    
+    
+            var circle_3da4c594b429bba03c24f9807aa4ab28 = L.circle(
+                [46.582275, 0.333241],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_edb3beaa6ab26c309b7e315f85170458 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_3a2f5ea0989ab5dd97c474935ad07acc = $(`<div id="html_3a2f5ea0989ab5dd97c474935ad07acc" style="width: 100.0%; height: 100.0%;"><center><b>POITIERS</b><br/><br/>Trains en retard au départ : <b>40%</b><br/>Moyenne des retards au départ : <b>9 min</b><br/>Trains en retard à l'arrivée : <b>10%</b><br/>Moyenne des retards à l'arrivée : <b>25 min</b></center><br/></div>`)[0];
+                popup_edb3beaa6ab26c309b7e315f85170458.setContent(html_3a2f5ea0989ab5dd97c474935ad07acc);
+            
+        
+
+        circle_3da4c594b429bba03c24f9807aa4ab28.bindPopup(popup_edb3beaa6ab26c309b7e315f85170458)
+        ;
+
+        
+    
+    
+            var circle_91dcda70a5207c1b938bdbf8a7611f8a = L.circle(
+                [43.611206, 1.453616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_ae83413b2c701be8a900cb18ad2a9c38 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_38f30aad0f03959a991714fa509f382c = $(`<div id="html_38f30aad0f03959a991714fa509f382c" style="width: 100.0%; height: 100.0%;"><center><b>TOULOUSE MATABIAU</b><br/><br/>Trains en retard au départ : <b>22%</b><br/>Moyenne des retards au départ : <b>15 min</b><br/>Trains en retard à l'arrivée : <b>13%</b><br/>Moyenne des retards à l'arrivée : <b>47 min</b></center><br/></div>`)[0];
+                popup_ae83413b2c701be8a900cb18ad2a9c38.setContent(html_38f30aad0f03959a991714fa509f382c);
+            
+        
+
+        circle_91dcda70a5207c1b938bdbf8a7611f8a.bindPopup(popup_ae83413b2c701be8a900cb18ad2a9c38)
+        ;
+
+        
+    
+    
+            var circle_57aea56c43b3880589734f491ffd951e = L.circle(
+                [49.2336853, 4.0224927],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_a14bdb52791050453788f3a4292f401b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_1e61ec230b9ce45d7e9365384258425b = $(`<div id="html_1e61ec230b9ce45d7e9365384258425b" style="width: 100.0%; height: 100.0%;"><center><b>REIMS</b><br/><br/>Trains en retard au départ : <b>29%</b><br/>Moyenne des retards au départ : <b>6 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>21 min</b></center><br/></div>`)[0];
+                popup_a14bdb52791050453788f3a4292f401b.setContent(html_1e61ec230b9ce45d7e9365384258425b);
+            
+        
+
+        circle_57aea56c43b3880589734f491ffd951e.bindPopup(popup_a14bdb52791050453788f3a4292f401b)
+        ;
+
+        
+    
+    
+            var circle_fa62d16f44d82175dad84d9b02fb03d5 = L.circle(
+                [50.6119054, 3.075837],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_37c3d3a1295d03dc57a58ff06f172936 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_4ac5872e6baaadf8ca42ba53ce8096fd = $(`<div id="html_4ac5872e6baaadf8ca42ba53ce8096fd" style="width: 100.0%; height: 100.0%;"><center><b>DOUAI</b><br/><br/>Trains en retard au départ : <b>38%</b><br/>Moyenne des retards au départ : <b>14 min</b><br/>Trains en retard à l'arrivée : <b>16%</b><br/>Moyenne des retards à l'arrivée : <b>22 min</b></center><br/></div>`)[0];
+                popup_37c3d3a1295d03dc57a58ff06f172936.setContent(html_4ac5872e6baaadf8ca42ba53ce8096fd);
+            
+        
+
+        circle_fa62d16f44d82175dad84d9b02fb03d5.bindPopup(popup_37c3d3a1295d03dc57a58ff06f172936)
+        ;
+
+        
+    
+    
+            var circle_7e09e74340e5ef0e82ce1907aaf23378 = L.circle(
+                [48.880185, 2.355151],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_f206f84870b2239d453f8ef3f4386509 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_7f7441fc2172b21efa5f7514cca7858e = $(`<div id="html_7f7441fc2172b21efa5f7514cca7858e" style="width: 100.0%; height: 100.0%;"><center><b>PARIS NORD</b><br/><br/>Trains en retard au départ : <b>29%</b><br/>Moyenne des retards au départ : <b>14 min</b><br/>Trains en retard à l'arrivée : <b>17%</b><br/>Moyenne des retards à l'arrivée : <b>21 min</b></center><br/></div>`)[0];
+                popup_f206f84870b2239d453f8ef3f4386509.setContent(html_7f7441fc2172b21efa5f7514cca7858e);
+            
+        
+
+        circle_7e09e74340e5ef0e82ce1907aaf23378.bindPopup(popup_f206f84870b2239d453f8ef3f4386509)
+        ;
+
+        
+    
+    
+            var circle_3386c1b4466d4e58772587bd81215d86 = L.circle(
+                [46.282884, 4.778876],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_56ec06ba280a39aa9b8a9d0ddc84de69 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_08239ffc5509248a6e21d6819ad84a9d = $(`<div id="html_08239ffc5509248a6e21d6819ad84a9d" style="width: 100.0%; height: 100.0%;"><center><b>MACON LOCHE</b><br/><br/>Trains en retard au départ : <b>74%</b><br/>Moyenne des retards au départ : <b>12 min</b><br/>Trains en retard à l'arrivée : <b>9%</b><br/>Moyenne des retards à l'arrivée : <b>31 min</b></center><br/></div>`)[0];
+                popup_56ec06ba280a39aa9b8a9d0ddc84de69.setContent(html_08239ffc5509248a6e21d6819ad84a9d);
+            
+        
+
+        circle_3386c1b4466d4e58772587bd81215d86.bindPopup(popup_56ec06ba280a39aa9b8a9d0ddc84de69)
+        ;
+
+        
+    
+    
+            var circle_20dd2b59e3307589df31c4cba6ce4f54 = L.circle(
+                [48.869856, 2.78272],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_be7b19c69a2dae0fe98175066c5e9c2e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_bd8c0d5eaba2379b161312d349821f62 = $(`<div id="html_bd8c0d5eaba2379b161312d349821f62" style="width: 100.0%; height: 100.0%;"><center><b>MARNE LA VALLEE</b><br/><br/>Trains en retard au départ : <b>63%</b><br/>Moyenne des retards au départ : <b>10 min</b><br/>Trains en retard à l'arrivée : <b>19%</b><br/>Moyenne des retards à l'arrivée : <b>36 min</b></center><br/></div>`)[0];
+                popup_be7b19c69a2dae0fe98175066c5e9c2e.setContent(html_bd8c0d5eaba2379b161312d349821f62);
+            
+        
+
+        circle_20dd2b59e3307589df31c4cba6ce4f54.bindPopup(popup_be7b19c69a2dae0fe98175066c5e9c2e)
+        ;
+
+        
+    
+    
+            var circle_7d387edd01ae3b89c7895eb5b679524a = L.circle(
+                [42.696292, 2.879779],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_9c13ffdf579cb6d4e6eef24a73296a53 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_24dd435749afb72010b3d2d79d3ebb8c = $(`<div id="html_24dd435749afb72010b3d2d79d3ebb8c" style="width: 100.0%; height: 100.0%;"><center><b>PERPIGNAN</b><br/><br/>Trains en retard au départ : <b>36%</b><br/>Moyenne des retards au départ : <b>11 min</b><br/>Trains en retard à l'arrivée : <b>16%</b><br/>Moyenne des retards à l'arrivée : <b>47 min</b></center><br/></div>`)[0];
+                popup_9c13ffdf579cb6d4e6eef24a73296a53.setContent(html_24dd435749afb72010b3d2d79d3ebb8c);
+            
+        
+
+        circle_7d387edd01ae3b89c7895eb5b679524a.bindPopup(popup_9c13ffdf579cb6d4e6eef24a73296a53)
+        ;
+
+        
+    
+    
+            var circle_d75c27cc5644aa1f5e4e20b375afdc1f = L.circle(
+                [43.12837, 5.929293],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_baf73670a3e53628c9abe79393d6084b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_378da0f21a3aad4e0e2b4318b3041142 = $(`<div id="html_378da0f21a3aad4e0e2b4318b3041142" style="width: 100.0%; height: 100.0%;"><center><b>TOULON</b><br/><br/>Trains en retard au départ : <b>43%</b><br/>Moyenne des retards au départ : <b>11 min</b><br/>Trains en retard à l'arrivée : <b>14%</b><br/>Moyenne des retards à l'arrivée : <b>40 min</b></center><br/></div>`)[0];
+                popup_baf73670a3e53628c9abe79393d6084b.setContent(html_378da0f21a3aad4e0e2b4318b3041142);
+            
+        
+
+        circle_d75c27cc5644aa1f5e4e20b375afdc1f.bindPopup(popup_baf73670a3e53628c9abe79393d6084b)
+        ;
+
+        
+    
+    
+            var circle_b842ca031253de42496e80c3a9fe2e5b = L.circle(
+                [49.109545, 6.176593],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_c3cca781273bb2f808744ef81a876b01 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_d3c3b09f17561f8182987c63e460a5af = $(`<div id="html_d3c3b09f17561f8182987c63e460a5af" style="width: 100.0%; height: 100.0%;"><center><b>METZ</b><br/><br/>Trains en retard au départ : <b>45%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>24 min</b></center><br/></div>`)[0];
+                popup_c3cca781273bb2f808744ef81a876b01.setContent(html_d3c3b09f17561f8182987c63e460a5af);
+            
+        
+
+        circle_b842ca031253de42496e80c3a9fe2e5b.bindPopup(popup_c3cca781273bb2f808744ef81a876b01)
+        ;
+
+        
+    
+    
+            var circle_3c09ebe1da5195c45692767f9ab37f0f = L.circle(
+                [48.689861, 6.174583],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_6ef8a9ef37ca121449c8c3358045bb08 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_b8f05f290ac1fe65ee12ce33ca6835c0 = $(`<div id="html_b8f05f290ac1fe65ee12ce33ca6835c0" style="width: 100.0%; height: 100.0%;"><center><b>NANCY</b><br/><br/>Trains en retard au départ : <b>36%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>7%</b><br/>Moyenne des retards à l'arrivée : <b>30 min</b></center><br/></div>`)[0];
+                popup_6ef8a9ef37ca121449c8c3358045bb08.setContent(html_b8f05f290ac1fe65ee12ce33ca6835c0);
+            
+        
+
+        circle_3c09ebe1da5195c45692767f9ab37f0f.bindPopup(popup_6ef8a9ef37ca121449c8c3358045bb08)
+        ;
+
+        
+    
+    
+            var circle_fa3f7e13997dcf2c280d0b088e94bb81 = L.circle(
+                [45.184877, 5.78474],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_ce2fc33a9d2180481c51808fb5822331 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_b4b9e05efc9488d6ed9f28e75d84ab80 = $(`<div id="html_b4b9e05efc9488d6ed9f28e75d84ab80" style="width: 100.0%; height: 100.0%;"><center><b>GRENOBLE</b><br/><br/>Trains en retard au départ : <b>10%</b><br/>Moyenne des retards au départ : <b>40 min</b><br/>Trains en retard à l'arrivée : <b>13%</b><br/>Moyenne des retards à l'arrivée : <b>37 min</b></center><br/></div>`)[0];
+                popup_ce2fc33a9d2180481c51808fb5822331.setContent(html_b4b9e05efc9488d6ed9f28e75d84ab80);
+            
+        
+
+        circle_fa3f7e13997dcf2c280d0b088e94bb81.bindPopup(popup_ce2fc33a9d2180481c51808fb5822331)
+        ;
+
+        
+    
+    
+            var circle_1fe67737a9984d31553c5320aa47a281 = L.circle(
+                [43.832291, 4.365845],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_ba3bc8e5ee3daa77bd47d8b638392cea = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_8f6aed3e6e937d7edace6b3ceaa3dcbb = $(`<div id="html_8f6aed3e6e937d7edace6b3ceaa3dcbb" style="width: 100.0%; height: 100.0%;"><center><b>NIMES</b><br/><br/>Trains en retard au départ : <b>54%</b><br/>Moyenne des retards au départ : <b>12 min</b><br/>Trains en retard à l'arrivée : <b>15%</b><br/>Moyenne des retards à l'arrivée : <b>34 min</b></center><br/></div>`)[0];
+                popup_ba3bc8e5ee3daa77bd47d8b638392cea.setContent(html_8f6aed3e6e937d7edace6b3ceaa3dcbb);
+            
+        
+
+        circle_1fe67737a9984d31553c5320aa47a281.bindPopup(popup_ba3bc8e5ee3daa77bd47d8b638392cea)
+        ;
+
+        
+    
+    
+            var circle_805b1fded2cda8d22c526b1703ca7ab6 = L.circle(
+                [45.653572, 0.164608],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_aad1dc7fef57474baf504df333cdbdf5 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_c174bbc5d594a51083dc86c21a0be24d = $(`<div id="html_c174bbc5d594a51083dc86c21a0be24d" style="width: 100.0%; height: 100.0%;"><center><b>ANGOULEME</b><br/><br/>Trains en retard au départ : <b>54%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>29 min</b></center><br/></div>`)[0];
+                popup_aad1dc7fef57474baf504df333cdbdf5.setContent(html_c174bbc5d594a51083dc86c21a0be24d);
+            
+        
+
+        circle_805b1fded2cda8d22c526b1703ca7ab6.bindPopup(popup_aad1dc7fef57474baf504df333cdbdf5)
+        ;
+
+        
+    
+    
+            var circle_6783db8336c8facd0bc8a6fdb24b6e9e = L.circle(
+                [47.665169, -2.75245],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_c3b6fcdda6d0aea23d55b8735d419ab5 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_653ba7e41170516941b0bd2cea36f06a = $(`<div id="html_653ba7e41170516941b0bd2cea36f06a" style="width: 100.0%; height: 100.0%;"><center><b>VANNES</b><br/><br/>Trains en retard au départ : <b>51%</b><br/>Moyenne des retards au départ : <b>6 min</b><br/>Trains en retard à l'arrivée : <b>13%</b><br/>Moyenne des retards à l'arrivée : <b>31 min</b></center><br/></div>`)[0];
+                popup_c3b6fcdda6d0aea23d55b8735d419ab5.setContent(html_653ba7e41170516941b0bd2cea36f06a);
+            
+        
+
+        circle_6783db8336c8facd0bc8a6fdb24b6e9e.bindPopup(popup_c3b6fcdda6d0aea23d55b8735d419ab5)
+        ;
+
+        
+    
+    
+            var circle_cc5ee2247a13e3231af3742aa0e79945 = L.circle(
+                [43.302666, 5.380407],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_07a67b6280337bb379b457fe66a6526a = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_60155d8601521dd19526b1e4f6d27399 = $(`<div id="html_60155d8601521dd19526b1e4f6d27399" style="width: 100.0%; height: 100.0%;"><center><b>MARSEILLE ST CHARLES</b><br/><br/>Trains en retard au départ : <b>27%</b><br/>Moyenne des retards au départ : <b>11 min</b><br/>Trains en retard à l'arrivée : <b>15%</b><br/>Moyenne des retards à l'arrivée : <b>39 min</b></center><br/></div>`)[0];
+                popup_07a67b6280337bb379b457fe66a6526a.setContent(html_60155d8601521dd19526b1e4f6d27399);
+            
+        
+
+        circle_cc5ee2247a13e3231af3742aa0e79945.bindPopup(popup_07a67b6280337bb379b457fe66a6526a)
+        ;
+
+        
+    
+    
+            var circle_d7fb10c121dd26fb73cba4d6c75a8d78 = L.circle(
+                [45.901965, 6.121835],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_a488f79c3961fdeaccc4d5901c9d3b32 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_0ae47204799d5196792376e231bc285e = $(`<div id="html_0ae47204799d5196792376e231bc285e" style="width: 100.0%; height: 100.0%;"><center><b>ANNECY</b><br/><br/>Trains en retard au départ : <b>7%</b><br/>Moyenne des retards au départ : <b>18 min</b><br/>Trains en retard à l'arrivée : <b>13%</b><br/>Moyenne des retards à l'arrivée : <b>40 min</b></center><br/></div>`)[0];
+                popup_a488f79c3961fdeaccc4d5901c9d3b32.setContent(html_0ae47204799d5196792376e231bc285e);
+            
+        
+
+        circle_d7fb10c121dd26fb73cba4d6c75a8d78.bindPopup(popup_a488f79c3961fdeaccc4d5901c9d3b32)
+        ;
+
+        
+    
+    
+            var circle_694e7533ea56d15e03b865232f10c5a4 = L.circle(
+                [43.921586, 4.786079],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_21dab0e4aa9f0a11cb42e5bb66caa59f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_663455c8f7f5384aee735c6f526dd8b3 = $(`<div id="html_663455c8f7f5384aee735c6f526dd8b3" style="width: 100.0%; height: 100.0%;"><center><b>AVIGNON TGV</b><br/><br/>Trains en retard au départ : <b>46%</b><br/>Moyenne des retards au départ : <b>9 min</b><br/>Trains en retard à l'arrivée : <b>13%</b><br/>Moyenne des retards à l'arrivée : <b>35 min</b></center><br/></div>`)[0];
+                popup_21dab0e4aa9f0a11cb42e5bb66caa59f.setContent(html_663455c8f7f5384aee735c6f526dd8b3);
+            
+        
+
+        circle_694e7533ea56d15e03b865232f10c5a4.bindPopup(popup_21dab0e4aa9f0a11cb42e5bb66caa59f)
+        ;
+
+        
+    
+    
+            var circle_208ac819413737c8e53ea6dd8884c945 = L.circle(
+                [45.7878115, 4.7309383],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_7e75b7769dd9c1311ec4b9fdfacd54e4 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_727437a47f74e4ac5816c9280be2b865 = $(`<div id="html_727437a47f74e4ac5816c9280be2b865" style="width: 100.0%; height: 100.0%;"><center><b>LAVAL</b><br/><br/>Trains en retard au départ : <b>40%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>12%</b><br/>Moyenne des retards à l'arrivée : <b>22 min</b></center><br/></div>`)[0];
+                popup_7e75b7769dd9c1311ec4b9fdfacd54e4.setContent(html_727437a47f74e4ac5816c9280be2b865);
+            
+        
+
+        circle_208ac819413737c8e53ea6dd8884c945.bindPopup(popup_7e75b7769dd9c1311ec4b9fdfacd54e4)
+        ;
+
+        
+    
+    
+            var circle_60a6d6073d59ee7db570e1fa35292295 = L.circle(
+                [47.995689, 0.192578],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_dc546f62975cba9c8359199fe174fdae = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_056b61529af50e1f749e1b1938c63a01 = $(`<div id="html_056b61529af50e1f749e1b1938c63a01" style="width: 100.0%; height: 100.0%;"><center><b>LE MANS</b><br/><br/>Trains en retard au départ : <b>55%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>12%</b><br/>Moyenne des retards à l'arrivée : <b>20 min</b></center><br/></div>`)[0];
+                popup_dc546f62975cba9c8359199fe174fdae.setContent(html_056b61529af50e1f749e1b1938c63a01);
+            
+        
+
+        circle_60a6d6073d59ee7db570e1fa35292295.bindPopup(popup_dc546f62975cba9c8359199fe174fdae)
+        ;
+
+        
+    
+    
+            var circle_ed8373a7ada9d4f347535aedff219722 = L.circle(
+                [48.646859, -2.004158],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_825ea8cf8b43d9db4117d7fce0a94a84 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_a3889e5da865083b18ed6b33693d6a44 = $(`<div id="html_a3889e5da865083b18ed6b33693d6a44" style="width: 100.0%; height: 100.0%;"><center><b>ST MALO</b><br/><br/>Trains en retard au départ : <b>31%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>9%</b><br/>Moyenne des retards à l'arrivée : <b>31 min</b></center><br/></div>`)[0];
+                popup_825ea8cf8b43d9db4117d7fce0a94a84.setContent(html_a3889e5da865083b18ed6b33693d6a44);
+            
+        
+
+        circle_ed8373a7ada9d4f347535aedff219722.bindPopup(popup_825ea8cf8b43d9db4117d7fce0a94a84)
+        ;
+
+        
+    
+    
+            var circle_cad6653bd4adec7faff5e9d758974dab = L.circle(
+                [50.286673, 2.781942],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_c18f4e47a66d6ebf416e708be0184bf1 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_b805a51e88637f3b163c2e662b3a51f6 = $(`<div id="html_b805a51e88637f3b163c2e662b3a51f6" style="width: 100.0%; height: 100.0%;"><center><b>ARRAS</b><br/><br/>Trains en retard au départ : <b>46%</b><br/>Moyenne des retards au départ : <b>8 min</b><br/>Trains en retard à l'arrivée : <b>12%</b><br/>Moyenne des retards à l'arrivée : <b>23 min</b></center><br/></div>`)[0];
+                popup_c18f4e47a66d6ebf416e708be0184bf1.setContent(html_b805a51e88637f3b163c2e662b3a51f6);
+            
+        
+
+        circle_cad6653bd4adec7faff5e9d758974dab.bindPopup(popup_c18f4e47a66d6ebf416e708be0184bf1)
+        ;
+
+        
+    
+    
+            var circle_29f6951e47718ba55860757484a01eba = L.circle(
+                [43.455237, 5.317534],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_09858760c58a21c539efd49a74556404 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_ab0adf0dbae594587e9a985f2ddf2300 = $(`<div id="html_ab0adf0dbae594587e9a985f2ddf2300" style="width: 100.0%; height: 100.0%;"><center><b>AIX EN PROVENCE TGV</b><br/><br/>Trains en retard au départ : <b>54%</b><br/>Moyenne des retards au départ : <b>8 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>43 min</b></center><br/></div>`)[0];
+                popup_09858760c58a21c539efd49a74556404.setContent(html_ab0adf0dbae594587e9a985f2ddf2300);
+            
+        
+
+        circle_29f6951e47718ba55860757484a01eba.bindPopup(popup_09858760c58a21c539efd49a74556404)
+        ;
+
+        
+    
+    
+            var circle_efdf09c9475cb8f268b53e7e5a2b2d03 = L.circle(
+                [47.32337, 5.027208],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_edb84c56be7492f957f83ab105e84b1e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_acde8df47a63023c3dde8e64c956f491 = $(`<div id="html_acde8df47a63023c3dde8e64c956f491" style="width: 100.0%; height: 100.0%;"><center><b>DIJON VILLE</b><br/><br/>Trains en retard au départ : <b>56%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>8%</b><br/>Moyenne des retards à l'arrivée : <b>34 min</b></center><br/></div>`)[0];
+                popup_edb84c56be7492f957f83ab105e84b1e.setContent(html_acde8df47a63023c3dde8e64c956f491);
+            
+        
+
+        circle_efdf09c9475cb8f268b53e7e5a2b2d03.bindPopup(popup_edb84c56be7492f957f83ab105e84b1e)
+        ;
+
+        
+    
+    
+            var circle_2f83055a4381f6d3f3f354d1dbd25be2 = L.circle(
+                [46.109425, 5.823483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_dcf971b873740dae08dd265501e4cde1 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_00271899873cd7c6b018ec0e88afb219 = $(`<div id="html_00271899873cd7c6b018ec0e88afb219" style="width: 100.0%; height: 100.0%;"><center><b>BELLEGARDE</b><br/><br/>Trains en retard au départ : <b>51%</b><br/>Moyenne des retards au départ : <b>6 min</b><br/>Trains en retard à l'arrivée : <b>17%</b><br/>Moyenne des retards à l'arrivée : <b>30 min</b></center><br/></div>`)[0];
+                popup_dcf971b873740dae08dd265501e4cde1.setContent(html_00271899873cd7c6b018ec0e88afb219);
+            
+        
+
+        circle_2f83055a4381f6d3f3f354d1dbd25be2.bindPopup(popup_dcf971b873740dae08dd265501e4cde1)
+        ;
+
+        
+    
+    
+            var circle_9e4d855d1487bfcef0ef41e6670e86ee = L.circle(
+                [47.464647, -0.55682],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_f5a10a84065088ca791ccfa94de6cc11 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_6626605542265237cde73522d12d0364 = $(`<div id="html_6626605542265237cde73522d12d0364" style="width: 100.0%; height: 100.0%;"><center><b>ANGERS ST LAUD</b><br/><br/>Trains en retard au départ : <b>54%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>12%</b><br/>Moyenne des retards à l'arrivée : <b>26 min</b></center><br/></div>`)[0];
+                popup_f5a10a84065088ca791ccfa94de6cc11.setContent(html_6626605542265237cde73522d12d0364);
+            
+        
+
+        circle_9e4d855d1487bfcef0ef41e6670e86ee.bindPopup(popup_f5a10a84065088ca791ccfa94de6cc11)
+        ;
+
+        
+    
+    
+            var circle_5c54315e88c392bed0a62407849cf00f = L.circle(
+                [47.307361058531725, 5.953195095062256],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_a1c557ec1bbb21b0dc691cad0fea3c1b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_6934b3c7203e33887e2d172794e37888 = $(`<div id="html_6934b3c7203e33887e2d172794e37888" style="width: 100.0%; height: 100.0%;"><center><b>BESANCON TGV</b><br/><br/>Trains en retard au départ : <b>33%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>9%</b><br/>Moyenne des retards à l'arrivée : <b>32 min</b></center><br/></div>`)[0];
+                popup_a1c557ec1bbb21b0dc691cad0fea3c1b.setContent(html_6934b3c7203e33887e2d172794e37888);
+            
+        
+
+        circle_5c54315e88c392bed0a62407849cf00f.bindPopup(popup_a1c557ec1bbb21b0dc691cad0fea3c1b)
+        ;
+
+        
+    
+    
+            var circle_4218a0cea7d516457cb333e9e851d34f = L.circle(
+                [45.443366, 4.399722],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_eb97088896da2059a9cd984bd3a99632 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_32d4e33b58b55e98a031ac35f063a6d8 = $(`<div id="html_32d4e33b58b55e98a031ac35f063a6d8" style="width: 100.0%; height: 100.0%;"><center><b>ST ETIENNE CHATEAUCREUX</b><br/><br/>Trains en retard au départ : <b>25%</b><br/>Moyenne des retards au départ : <b>21 min</b><br/>Trains en retard à l'arrivée : <b>12%</b><br/>Moyenne des retards à l'arrivée : <b>27 min</b></center><br/></div>`)[0];
+                popup_eb97088896da2059a9cd984bd3a99632.setContent(html_32d4e33b58b55e98a031ac35f063a6d8);
+            
+        
+
+        circle_4218a0cea7d516457cb333e9e851d34f.bindPopup(popup_eb97088896da2059a9cd984bd3a99632)
+        ;
+
+        
+    
+    
+            var circle_6912b1269d530f15e360734a6f40fae4 = L.circle(
+                [44.991545, 4.978703],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_91223c1f54c4843421597008b939129b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_aee6feef2056f63a76601ed24f8494b8 = $(`<div id="html_aee6feef2056f63a76601ed24f8494b8" style="width: 100.0%; height: 100.0%;"><center><b>VALENCE TGV</b><br/><br/>Trains en retard au départ : <b>63%</b><br/>Moyenne des retards au départ : <b>12 min</b><br/>Trains en retard à l'arrivée : <b>12%</b><br/>Moyenne des retards à l'arrivée : <b>34 min</b></center><br/></div>`)[0];
+                popup_91223c1f54c4843421597008b939129b.setContent(html_aee6feef2056f63a76601ed24f8494b8);
+            
+        
+
+        circle_6912b1269d530f15e360734a6f40fae4.bindPopup(popup_91223c1f54c4843421597008b939129b)
+        ;
+
+        
+    
+    
+            var circle_467bb772fa69e940ca2ccf8b97f56039 = L.circle(
+                [46.765343, 4.499513],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_9e3df9bad31dc512434c42a777b8d4c7 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_6fb502a345119c69e3ffd35bbf6a8017 = $(`<div id="html_6fb502a345119c69e3ffd35bbf6a8017" style="width: 100.0%; height: 100.0%;"><center><b>LE CREUSOT MONTCEAU</b><br/><br/>Trains en retard au départ : <b>60%</b><br/>Moyenne des retards au départ : <b>7 min</b><br/>Trains en retard à l'arrivée : <b>11%</b><br/>Moyenne des retards à l'arrivée : <b>22 min</b></center><br/></div>`)[0];
+                popup_9e3df9bad31dc512434c42a777b8d4c7.setContent(html_6fb502a345119c69e3ffd35bbf6a8017);
+            
+        
+
+        circle_467bb772fa69e940ca2ccf8b97f56039.bindPopup(popup_9e3df9bad31dc512434c42a777b8d4c7)
+        ;
+
+        
+    
+    
+            var circle_dab62e605d5542b16d2f5121afcdbb34 = L.circle(
+                [48.841172, 2.320514],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
+            ).addTo(map_c5a94a94e097c4438b326787f036ae68);
+        
+    
+        var popup_5578a05cafaeedb27829790ba3b36d08 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_31293152c3758b30483f092a9d2eda15 = $(`<div id="html_31293152c3758b30483f092a9d2eda15" style="width: 100.0%; height: 100.0%;"><center><b>PARIS MONTPARNASSE VAUGIRARD</b><br/><br/>Trains en retard au départ : <b>15%</b><br/>Moyenne des retards au départ : <b>16 min</b><br/>Trains en retard à l'arrivée : <b>13%</b><br/>Moyenne des retards à l'arrivée : <b>40 min</b></center><br/></div>`)[0];
+                popup_5578a05cafaeedb27829790ba3b36d08.setContent(html_31293152c3758b30483f092a9d2eda15);
+            
+        
+
+        circle_dab62e605d5542b16d2f5121afcdbb34.bindPopup(popup_5578a05cafaeedb27829790ba3b36d08)
+        ;
+
+        
+    
+</script>
+</html>
